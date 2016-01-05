@@ -15,6 +15,7 @@
 		E7BAFCEB1C3BB3DF00C9B371 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BAFCE91C3BB3DF00C9B371 /* LaunchScreen.storyboard */; };
 		E7BAFCF61C3BB3DF00C9B371 /* block__Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAFCF51C3BB3DF00C9B371 /* block__Tests.m */; };
 		E7BAFD011C3BB3DF00C9B371 /* block__UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAFD001C3BB3DF00C9B371 /* block__UITests.m */; };
+		E7BAFD101C3BBAF300C9B371 /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7BAFD0F1C3BBAF300C9B371 /* TextFieldController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		E7BAFCFC1C3BB3DF00C9B371 /* block测试UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "block测试UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7BAFD001C3BB3DF00C9B371 /* block__UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = block__UITests.m; sourceTree = "<group>"; };
 		E7BAFD021C3BB3DF00C9B371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BAFD0E1C3BBAF300C9B371 /* TextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
+		E7BAFD0F1C3BBAF300C9B371 /* TextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				E7BAFCDF1C3BB3DF00C9B371 /* AppDelegate.m */,
 				E7BAFCE11C3BB3DF00C9B371 /* ViewController.h */,
 				E7BAFCE21C3BB3DF00C9B371 /* ViewController.m */,
+				E7BAFD0E1C3BBAF300C9B371 /* TextFieldController.h */,
+				E7BAFD0F1C3BBAF300C9B371 /* TextFieldController.m */,
 				E7BAFCE41C3BB3DF00C9B371 /* Main.storyboard */,
 				E7BAFCE71C3BB3DF00C9B371 /* Assets.xcassets */,
 				E7BAFCE91C3BB3DF00C9B371 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7BAFCE31C3BB3DF00C9B371 /* ViewController.m in Sources */,
+				E7BAFD101C3BBAF300C9B371 /* TextFieldController.m in Sources */,
 				E7BAFCE01C3BB3DF00C9B371 /* AppDelegate.m in Sources */,
 				E7BAFCDD1C3BB3DF00C9B371 /* main.m in Sources */,
 			);
